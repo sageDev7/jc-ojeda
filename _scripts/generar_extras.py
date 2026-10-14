@@ -102,7 +102,7 @@ if ".legal-hero" not in c:
 /* ---------- privacidad y 404 ---------- */
 .legal-hero{padding:calc(var(--hdr) + 5rem) 0 3.6rem;background:linear-gradient(125deg,var(--ink) 0%,var(--slate-d) 50%,var(--slate) 100%);border-bottom:1px solid var(--line-l)}
 .legal{padding:80px 0 120px;background:var(--slate-d)}
-.legal-in{max-width:46rem}
+.legal-in>*{max-width:46rem}
 .legal-date{margin-bottom:2.2rem;font-size:.85rem;font-weight:600;color:var(--champ)}
 .legal h2{margin:2.4rem 0 .8rem;font-size:1.45rem}
 .legal p,.legal li{color:var(--muted-l)}
